@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caesar Cipher Encrypter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Caesar Cipher Encrypter</h1>
+  <div class="massageContainer">
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" cols="50"></textarea>
+  </div>
+  <div class="keyContainer">
+    <label for="key">Key:</label>
+    <input type="number" id="key">
+    <button onclick="encrypt()">Encrypt</button>
+  </div>
+  <div class="encryptContainer">
+    <label for="result">Encrypted Message:</label>
+    <textarea id="result" rows="4" cols="50" readonly></textarea>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
